@@ -75,8 +75,8 @@ def main():
         print(f"\nParsing completed successfully!")
         print(f"Collected {len(results)} products")
         print(f"Results saved to:")
-        print(f"  - JSON: {os.path.join(category_dir, f'{args.category.replace(' ', '_')}_results.json')}")
-        print(f"  - CSV: {os.path.join(category_dir, f'{args.category.replace(' ', '_')}_results.csv')}")
+        print(f"  - JSON: {os.path.join(category_dir, args.category.replace(' ', '_') + '_results.json')}")
+        print(f"  - CSV: {os.path.join(category_dir, args.category.replace(' ', '_') + '_results.csv')}")
         print(f"  - Images: {category_dir}")
     else:
         print("\nNo products were collected. This could be due to:")
