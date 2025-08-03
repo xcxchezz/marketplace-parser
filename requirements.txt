@@ -1,0 +1,9 @@
+requests
+beautifulSoup4
+pillow
+selenium
+webdriver-manager
+pandas
+opencv-python
+pytesseract
+colorthief
